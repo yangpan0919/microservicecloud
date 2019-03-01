@@ -1,0 +1,18 @@
+spring
+  profiles
+    active
+    - dev
+---
+spring
+  profiles dev     #��������
+  application
+    name microservicecloud-config-atguigu-dev
+---
+spring
+  profiles test   #���Ի���
+  application
+    name microservicecloud-config-atguigu-test
+#  �뱣��ΪUTF-8��ʽ
+
+
+
